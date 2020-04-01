@@ -1,0 +1,153 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="Style.css">
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <meta name="Description" content="Modal Website" />
+
+
+</head>
+
+<!-- CONTENT-->
+<body>
+<div class="container">
+    <!--Responsive layout start-->
+    <div class="row">
+    	<!--App/pres/test panel-->  
+        <div class="col-sm-6 col-md-4 col-lg-4" id="btnDiv">    
+        	Online
+        	<br>
+        	<a href="https://patient.emisaccess.co.uk/account/login?ReturnUrl=%2F" target="_blank">     
+            	<button type="button" class="btn btn-primary" id="largeTxts">Appointments</button>
+        	</a>
+        </div>
+        <!--new panel-->  
+        <div class="col-sm-6 col-md-4 col-lg-4" id="btnDiv">
+        	Online
+        	<br>
+        	<a href="https://patient.emisaccess.co.uk/account/login?ReturnUrl=%2F" target="_blank">  
+            	<button type="button" class="btn btn-primary" id="largeTxts">Prescriptions</button>
+        	</a>
+        </div>
+        <!--new panel-->  
+        <div class="col-sm-6 col-md-4 col-lg-4" id="btnDiv">
+        	Online
+        	<br>        	
+        	<a href="https://patient.emisaccess.co.uk/account/login?ReturnUrl=%2F" target="_blank">  
+            	<button type="button" class="btn btn-primary" id="largeTxts">Test Results</button>
+            </a>
+        </div>
+		<!--Panel for essential info-->    	
+		<div class="col-sm-12 col-md-6 col-lg-6" id="infoDiv">   
+			<div class="panel panel-default" id="largeTxts">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">Contact Details</h3>
+			  </div>
+			  <div class="panel-body">
+			  	<p><strong>Phone: (01452) 5577713</strong><br>Fax: (01452) 5577714<br>Email: practiceenquiries@nhs.net</p>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">Address</h3>
+			  </div>
+			  <div class="panel-body">
+			  	<p>129 A, Berkely Road<br>Horfield. HR13 8BP</p>
+			  </div>
+			</div>
+        </div>
+        <!--Panel for opening hours-->
+        <div class="col-sm-12 col-md-6 col-lg-6" id="infoDiv">   
+			<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title" id="largeTxts">Opening Hours</h3>
+			  	</div>
+			  	<div class="panel-body">
+			    	<table class="table table-striped">
+				        <tr> <!-- Opening hours table-->
+				          <td>Mon</td>
+				          <td>Tue</td> 
+				          <td>Wed</td>
+				          <td>Thur</td>
+				          <td>Fri</td> 
+				          <td>Sat</td>
+				          <td>Sun</td>
+				        </tr>
+				        <tr>
+				          <td>8:30am - 6:30pm*</td>
+				          <td>8:30am - 6:30pm*</td> 
+				          <td>8:30am - 6:30pm</td>
+				          <td>8:30am - 6:30pm</td>
+				          <td>8:30am - 6:30pm</td>
+				          <td>Close</td>
+				          <td>Close</td>
+				        </tr>
+				    </table>
+			    </div>
+			    	<p id="largeTxts">* Open until 8:00pm alternate Mon/Tuesdays</p>
+			</div>
+			    <a href="Advice.html">  
+            		<button type="button" class="btn btn-success" id="largeTxts">Medical / Psychological Advice and Information</button>
+            	</a>
+        </div>
+            	<!--new panel-->  
+        <div class="col-sm-12 col-md-6 col-lg-6" id="btnDiv">
+
+        </div>
+        <!-- Defunct Spacing panel to make sure buttons start in order
+        <div class="col-sm-12 col-md-12 col-lg-12">
+        </div> -->
+        <!--Info grouping panel-->
+        <div class="col-sm-12 col-md-12 col-lg-12">  
+			<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title" id="centerTxts">Practice Information</h3>
+			  	</div>
+			  	<div class="panel-body" id="infoGroupBtnDiv">
+	        	<!--new btn-->  
+	        		<a href="ClinInfo.html">  
+		            	<button type="button" class="btn btn-default" id="infoGroupBtn">Clinic and Services Information</button>
+		        	</a>
+		        
+		        <!--new btn-->  
+		        	<a href="StaffInfo.html">  
+		            	<button type="button" class="btn btn-default" id="infoGroupBtn">Staff Information</button>
+		        	</a>
+		        <!--new btn-->  
+		        	<a href="PracInfo.html">  
+		            	<button type="button" class="btn btn-default" id="infoGroupBtn">Practice Information</button>
+		            </a>
+		        </div>
+	        </div>
+    	</div>
+    </div>
+</div>
+
+<!--For reference: button code to call audio -->
+<!-- <button onclick="document.getElementById('sound1').play();">Play it</button> -->
+
+<!-- jQuery and javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../assets/js/docs.min.js"></script>
+    <!-- Javascripts -->
+  <script type="text/javascript">
+    // Quickstart within-button pop-over //
+    $("[data-toggle=popover]").popover();
+  });
+
+  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<html>
+    
+<head><!--#HEAD#-->
+<!--Meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+<!-- Style -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body><!--#BODY#-->
+    
+<!-- Menu start-->
+    
+<!--Welcome-->
+<div class="container">
+    <div> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="centerTxts"><br><br>What would you like information about?</h2>
+    </div>
+    <!--Menu section start-->
+    <div class="container-fluid">
+        <div class="panel-group" id="accordion accordionMODAL" role="tablist" aria-multiselectable="true">
+     <!--<strong id="ModalCloseHelp" style="color: red;"><span class=" glyphicon glyphicon-volume-up" aria-hidden="tru"></span> Turn your speakers up if you want this menu read out to you <span class=" glyphicon glyphicon-volume-up" aria-hidden="tru"></strong>-->
+<!--Panels start-->
+                
+            <!--#6h-->
+              <div class="panel panel-NEW text-center" id="headingOne1">
+                <div class="panel-heading" role="tab" id="headingSix">
+                   <h4 class="panel-title" id="panel-titleMOD" style="padding:20px;"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix" onclick="document.getElementById('10info.mp3').play();" style="font-size: 150%;">About the services the practice offers...</a></h4>
+                </div>
+                <!--#6p-->
+                <div id="collapseSix" class="panel" role="tabpanel" aria-labelledby="headingSix"  >
+                  <div class="panel-body" id="bodyOne">
+                    <a class="btn btn-default" href="appointments.html#Types" role="button" id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('16apptyp.mp3').play();" target="_blank">Appointment types</a>
+                    <a class="btn btn-default" href="appointments.html#Nurses" role="button" id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('17nuyrses.mp3').play();" target="_blank">Nurse clinics</a>
+                    <a class="btn btn-default" href="Prescriptions-Results.html" role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('18results.mp3').play();" target="_blank">Tests and results</a>
+                    <a class="btn btn-default" href="appointments.html#Register" role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('19registration.mp3').play();" target="_blank">Registration</a>
+                    <a class="btn btn-default" href="appointments.html#Register" role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('20temp.mp3').play();" target="_blank">Temporary patient registration</a>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            
+    </div>
+<!--Closing menu-->
+    </div> <!--/accordian-->
+</div> <!--/container-->
+
+<!--Footer starts-->
+<div class="modal-footer">
+    <!--To CLOSE this menu: Click the 'x' in the top right corner or click this 'close' button.-->
+    <a href="index.html"><button type="button" class="btn btn-danger button" data-dismiss="modal" >Back to main menu</button></a>
+</div>
+
+
+
+<!-- jQuery and javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../assets/js/docs.min.js"></script>
+    <!-- Javascripts -->
+  <script type="text/javascript">
+    // Quickstart within-button pop-over //
+    $("[data-toggle=popover]").popover();
+  });
+
+  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<html>
+    
+<head><!--#HEAD#-->
+<!--Meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+<!-- Style -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body><!--#BODY#-->
+    
+<!-- Menu start-->
+    
+<!--Welcome-->
+<div class="container">
+    <div> 
+        
+        <h2 class="modal-title" id="centerTxts"><br><br>Do you need urgent advice?</h2>
+    </div>
+    <!--Menu section start-->
+    <div class="container-fluid">
+        <div class="panel-group" id="accordion accordionMODAL" role="tablist" aria-multiselectable="true">
+            
+     <!--<strong id="ModalCloseHelp" style="color: red;"><span class=" glyphicon glyphicon-volume-up" aria-hidden="tru"></span> Turn your speakers up if you want this menu read out to you <span class=" glyphicon glyphicon-volume-up" aria-hidden="tru"></strong>-->
+<!--Panels start-->
+                
+            
+
+        <!--#5h-->
+        <div class="panel panel-NEW text-center" id="headingOne1">
+            <div class="panel-heading" role="tab" id="headingFive">
+               <h4 class="panel-title" id="panel-titleMOD"style="padding:20px;"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" onclick="document.getElementById('10info.mp3').play();" style="font-size: 150%;">Yes</a></h4>
+            </div>
+            <!--#5p-->
+
+            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive"  >
+              <div class="panel-body" id="bodyOne">
+                <div class="btn-group">
+                    <h4 style="text-align:left;">In an emergency dial <strong>999</strong>
+                    <br><br> For urgent advice dial <strong>111</strong> for NHS 111 (available 24/7)</h4>
+                </div>
+              </div>
+            </div> 
+        </div>
+                    <!--#5h-->
+        <div class="panel panel-NEW text-center" id="headingOne1">
+            <div class="panel-heading" role="tab" id="headingFive">
+               <h4 class="panel-title" id="panel-titleMOD"style="padding:20px;"><a href="advice_topics.html" style="font-size: 150%;">No</a></h4>
+            </div>
+            <!--#5p-->
+
+            
+              </div>
+        </div> 
+            
+    <!--ADD:
+        What you can see the pharmacist for-->
+
+    </div>
+<!--Closing menu-->
+    </div> <!--/accordian-->
+</div> <!--/container-->
+
+<!--Footer starts-->
+<div class="modal-footer">
+    <!--To CLOSE this menu: Click the 'x' in the top right corner or click this 'close' button.-->
+    <a href="index.html"><button type="button" class="btn btn-danger button" data-dismiss="modal" >Back to main menu</button></a>
+</div>
+
+
+<!--For reference: button code to call audio -->
+<!-- <button onclick="document.getElementById('sound1').play();">Play it</button> -->
+
+<!-- jQuery and javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../assets/js/docs.min.js"></script>
+    <!-- Javascripts -->
+  <script type="text/javascript">
+    // Quickstart within-button pop-over //
+    $("[data-toggle=popover]").popover();
+  });
+
+  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<html>
+    
+<head><!--#HEAD#-->
+<!--Meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+<!-- Style -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body><!--#BODY#-->
+    
+<!-- Menu start-->
+    
+<!--Welcome-->
+<div class="container">
+    <div> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="centerTxts"><br><br>What would you like information about?</h2>
+    </div>
+    <!--Menu section start-->
+    <div class="container-fluid">
+        <div class="panel-group" id="accordion accordionMODAL" role="tablist" aria-multiselectable="true">
+     <!--<strong id="ModalCloseHelp" style="color: red;"><span class=" glyphicon glyphicon-volume-up" aria-hidden="tru"></span> Turn your speakers up if you want this menu read out to you <span class=" glyphicon glyphicon-volume-up" aria-hidden="tru"></strong>-->
+
+            <!--Panels start-->
+                
+            <!--#1-->
+              <div class="panel panel-NEW text-center" id="headingOne1">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                   <h4 class="panel-title" id="panel-titleMOD" style="padding:20px;"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapseSeven" onclick="document.getElementById('10info.mp3').play();" style="font-size: 150%;">Opening Hours</a></h4>
+                </div>
+
+                <!--#1p-->
+                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven"  >
+                  <div class="panel-body" id="bodyOne">
+                    <h4>9am-6pm Weekdays</h4>
+                  </div>
+                </div>
+              </div>
+                
+            <!--#2-->
+              <div class="panel panel-NEW text-center" id="headingOne1">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                   <h4 class="panel-title" id="panel-titleMOD" style="padding:20px;"><a href="#" onclick="document.getElementById('10info.mp3').play();" style="font-size: 150%;">Practice staff</a></h4>
+                </div>
+              </div>
+                
+            <!--#3-->
+              <div class="panel panel-NEW text-center" id="headingOne1">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                   <h4 class="panel-title" id="panel-titleMOD" style="padding:20px;"><a href="contact.html" onclick="document.getElementById('10info.mp3').play();" style="font-size: 150%;">Our location</a></h4>
+                </div>
+              </div>
+                
+            <!--#4-->
+              <div class="panel panel-NEW text-center" id="headingOne1">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                   <h4 class="panel-title" id="panel-titleMOD" style="padding:20px;"><a href="contact.html" onclick="document.getElementById('10info.mp3').play();" style="font-size: 150%;">Contact information</a></h4>
+                </div>
+              </div>
+                
+            <!--#5-->
+              <div class="panel panel-NEW text-center" id="headingOne1">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                   <h4 class="panel-title" id="panel-titleMOD" style="padding:20px;"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapseSeven" onclick="document.getElementById('10info.mp3').play();" style="font-size: 150%;">Compliments, comments and concerns</a></h4>
+                </div>
+                  
+                <!--#5p-->
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven"  >
+                  <div class="panel-body" id="bodyOne">
+  
+                  </div>
+                </div>
+              </div>
+            
+<!--Closing menu-->
+        </div>
+    </div> <!--/accordian-->
+</div> <!--/container-->
+    
+<!--
+                    <a class="btn btn-default" href="https://bmpsite.weebly.com/appointments.html#Hours"role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;" onclick="document.getElementById('11hours.mp3').play();" target="_blank">Opening Hours</a>
+                    <a class="btn btn-default" href="about-us.html#Staff"role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('14practicestaff.mp3').play();" target="_blank"></a>
+                    <a class="btn btn-default" href="about-us.html#Map"role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('15complaints.mp3').play();" target="_blank"></a>
+                    <a class="btn btn-default" role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('12location.mp3').play();" target="_blank"></a>
+                    <a class="btn btn-default" href="contact.html"role="button"id="spacebtn"  style="margin-bottom: 10px; font-size: 1.4em;"
+                    onclick="document.getElementById('13contactus.mp3').play();" target="_blank"></a>
+-->
+
+<div class="modal-footer">
+    <!--To CLOSE this menu: Click the 'x' in the top right corner or click this 'close' button.-->
+    <a href="index.html"><button type="button" class="btn btn-danger button" data-dismiss="modal" >Back to main menu</button></a>
+</div>
+
+<!--For reference: button code to call audio -->
+<!-- <button onclick="document.getElementById('sound1').play();">Play it</button> -->
+
+<!-- jQuery and javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../assets/js/docs.min.js"></script>
+    <!-- Javascripts -->
+  <script type="text/javascript">
+    // Quickstart within-button pop-over //
+    $("[data-toggle=popover]").popover();
+  });
+
+  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
+
+</script>
+</body>
+
+</html>

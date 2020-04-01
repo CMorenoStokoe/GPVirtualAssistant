@@ -1,0 +1,122 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="Style.css">
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <meta name="Description" content="Modal Website" />
+
+
+</head>
+
+<!-- CONTENT-->
+<body>
+<div class="container" id="largeTxts">
+    <!--Responsive layout start-->
+    <div class="row">
+    	<!--Panel for BACK-->
+    	<div class="col-sm-12 col-md-12 col-lg-12" id="btnDiv">    
+        	<a href="modal_Website.html">     
+            	<button type="button" class="btn btn-danger" id="largeTxts">< BACK TO HOME</button>
+        	</a>
+        </div>
+
+    	<!--Panel-->
+    	<div class="col-sm-12 col-md-12 col-lg-12">
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="http://www.asapglos.nhs.uk/search-by-condition/" target="_blank"><strong>Help and advice with minor or acute illnesses</a><br></strong>
+					<img src="asapglos_ALT.jpg" alt="asap glos" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="https://www.talk2gether.nhs.uk/"><strong>Psychological advice</a><br>Tel: 0800 0732200<br></strong>
+					<img src="letstalk.png" alt="Let's Talk" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="http://www.nhs.uk/Livewell/Goodfood/Pages/eight-tips-healthy-eating.aspx" target="_blank"><strong>Healthy living advice</a><br></strong>
+					<img src="nhschoicehealthy.png" alt="nhschoicehealthy" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="http://www.nhs.uk/livewell/smoking/Pages/stopsmokingnewhome.aspx" target="_blank"><strong>Stop smoking​</a><br></strong>
+					<img src="nhschoicehealthy.png" alt="nhschoicehealthy" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="https://scripts2.glosnhs.net/mpqreferralform/" target="_blank"><strong>Physiotherapy advice</a><br>Tel: 0300 4228527<br></strong>
+					<img src="physio.png" alt="PhysioDirect" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="https://www.glos-care.nhs.uk/our-services/care-where-you-live/community-nursing" target="_blank"><strong>Information about community nurses</a><br>Tel: 0300 4211436<br></strong>
+					<img src="nursing.png" alt="Nursing" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="http://www.gloshospitals.nhs.uk/en/Wards-and-Departments/Maternity-Wards/" target="_blank"><strong>Midwifery</a><br></strong>
+					<img src="midwif.png" alt="Midwifery" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="https://www.glos-care.nhs.uk/our-services/children-young-people/health-visiting" target="_blank">​<strong>Health visitors</a><br></strong>
+					<img src="nursing.png" alt="Health visitors" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="http://carersgloucestershire.org.uk" target="_blank">​<strong>Carers</a><br></strong>
+					<img src="carers.png" alt="Carers" id="advicePics">
+				</div>
+			</div>
+    		<div class="panel panel-default" id="centerTxts">
+				<div class="panel-body">
+					<a href="https://www.alzheimers.org.uk/" target="_blank">​<strong>Dementia Adviser</a><br> ​E-Mail: gloucestershire@alzheimers.org.uk<br></strong>
+					<img src="dementia.png" alt="Dementia Adviser" id="advicePics">
+				</div>
+			</div>
+
+    	</div><!--/col-->
+
+    </div> <!--/row-->
+</div> <!--/cont-->
+
+<!--For reference: button code to call audio -->
+<!-- <button onclick="document.getElementById('sound1').play();">Play it</button> -->
+
+<!-- jQuery and javascripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../assets/js/docs.min.js"></script>
+    <!-- Javascripts -->
+  <script type="text/javascript">
+    // Quickstart within-button pop-over //
+    $("[data-toggle=popover]").popover();
+  });
+
+  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
+</script>
+<script>
+	$(document).ready(function() {
+	$("#infobox").hide().slideDown(1000);});
+</script>
+
+</body>
+
+</html>

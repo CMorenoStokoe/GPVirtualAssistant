@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="Style.css">
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <meta name="Description" content="Modal Website" />
+
+
+</head>
+
+<!-- CONTENT-->
+<body>
+<div class="container">
+    <!--Responsive layout start-->
+    <div class="row">
+    	<!--Panel for BACK-->
+    	<div class="col-sm-12 col-md-12 col-lg-12" id="btnDiv">    
+        	<a href="modal_Website.html">     
+            	<button type="button" class="btn btn-danger" id="largeTxts">< BACK TO HOME</button>
+        	</a>
+        </div>
+    	<!--Panel -->
+    	<div class="col-sm-12 col-md-12 col-lg-12" id="largeTxts">
+			<div id="PageContent" class=container >
+			  <div class="panel panel-default">
+			    <div class="panel-heading">  <h3 id="centerTxts">
+			About Us
+			      </h3>
+			    </div>
+			    <div class="panel-body">
+			<h4 id="centerTxts">About our Medical Practice</h4>      
+					<p> 
+					This Medical Practice is an exciting place to work; we are an ambitious group of GPs. As a training practice we continuously reflect on our core vision and remain focused on providing quality care, always looking at ways to improve our patient’s experience. Like any successful team, we invest in the wellbeing of every single member, providing training, clinical and management supervision, making sure we recruit people who share our values. We have 4 GP Partners, a Salaried Doctor, 3 Nurses, 2 HCA’s and a small team of administration and reception staff.
+					</p>
+					<br>
+				</div>
+			</div>
+			  <div class="panel panel-default" >
+			    <div class="panel-heading"  id="centerTxts">  
+			      <h3>Medical Research</h3>
+			    </div>
+			    <div class="panel-body"> <!-- GOOGLE MAPS WIDGET -->
+			      <h4 id="centerTxts"> General Practice Research Database </h4>
+			      <p>
+			        This Practice contributes data to the General Practice Rersearch Database (GPRD)which is run on a non-profit-making basis by the UK Medicines and Healthcare products Regulatory Agency (MHRA) in London. The information held on the database is used for a variety of medical and public health research purposes including:
+			<ul>
+			<li>
+			Investigating side effects of medicines
+			</li>
+			<li>
+			Investigating causes of disease and medical disorders
+			</li>
+			</ul>
+    	</div><!--/col-->
+    </div> <!--/row-->
+</div> <!--/cont-->
+
+<!--For reference: button code to call audio -->
+<!-- <button onclick="document.getElementById('sound1').play();">Play it</button> -->
+
+<!-- jQuery and javascripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../assets/js/docs.min.js"></script>
+    <!-- Javascripts -->
+  <script type="text/javascript">
+    // Quickstart within-button pop-over //
+    $("[data-toggle=popover]").popover();
+  });
+
+  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
+</script>
+<script>
+	$(document).ready(function() {
+	$("#infobox").hide().slideDown(1000);});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<html>
+    
+<head><!--#HEAD#-->
+<!--Meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+<!-- Style -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body><!--#BODY#-->
+    
+<!-- Menu start-->
+    
+<!--Welcome-->
+<div class="container">
+    <div> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="centerTxts"><br><br>Here are our contact details:</h2>
+    </div>
+    <!--Menu section start-->
+    <div class="container-fluid">
+        <div class="panel-group" id="accordion accordionMODAL" role="tablist" aria-multiselectable="true">
+    
+     <!--<strong id="ModalCloseHelp" style="color: red;"><span class=" glyphicon glyphicon-volume-up" aria-hidden="tru"></span> Turn your speakers up if you want this menu read out to you <span class=" glyphicon glyphicon-volume-up" aria-hidden="tru">-->
+<!--Panels start-->
+
+    <!--#1h-->
+    <div class="panel panel-NEW text-center" id="headingOne1"  style="margin-top: 20px;">
+        <div class="panel-heading" role="tab" id="headingOne" >
+          <h4 class="panel-title" id="panel-titleMOD" style="padding:20px;"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+            onclick="document.getElementById('2appt.mp3').play();" style="font-size:150%;"> Contact us:</a></h4>
+        </div>
+        <!--#1p-->
+        <div id="collapseOne" class="panel">
+            <div class="panel-body" id="bodyOne">
+                <h4>Address:</h4> 
+                <p>
+            The Aspen Centre,<br>
+Horton Road, <br>
+Gloucester, <br>
+GL1 3PX<br>
+            <br>
+            <h4>Telephone:</h4><p>(01452) 337733<br>
+For booking appointments, requesting test results and asking queries.<br><br>
+                
+ <h4>Email:</h4><p>
+aspen.patientservices@nhs.net <br>
+For sending repeat prescription requests and non-urgent queries or comments.<br><br>
+
+            </p>
+                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=the%20aspen%20centre%2C%20horton%20road%2C%20gloucester&key=AIzaSyDeDbBlj1wq4_tke50_yicn1lOPli5dJTE" allowfullscreen> 
+</iframe>
+        </div>
+    </div>
+    
+  </div>
+ </div> <!--/accordian-->
+</div> <!--/container-->
+
+<!--Footer-->
+<div class="modal-footer">
+    <!--To CLOSE this menu: Click the 'x' in the top right corner or click this 'close' button.-->
+    <a href="index.html"><button type="button" class="btn btn-danger button" data-dismiss="modal" >Back to main menu</button></a>
+</div>
+
+
+<!-- jQuery and javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../assets/js/docs.min.js"></script>
+    <!-- Javascripts -->
+  <script type="text/javascript">
+    // Quickstart within-button pop-over //
+    $("[data-toggle=popover]").popover();
+  });
+  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
+</script>
+</body>
+
+</html>
